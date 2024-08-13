@@ -30,6 +30,7 @@ main {
 
 #search-area {
     justify-content: center;
+    gap: 5px;
 }
 
 #name-area {
