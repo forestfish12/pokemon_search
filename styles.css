@@ -1,0 +1,175 @@
+:root {
+    --primary-background-color: #1f1f3a;
+    --secondary-background-color: #faf1f1;
+    --tertiary-background-color: #efeaea;
+    --title-color: #fffafa;
+    --highlight-color: #6f0505;
+    --text-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    color: var(--title-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-background-color);
+    width: 25rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#search-area {
+    justify-content: center;
+}
+
+#name-area {
+    flex-direction: column;
+    background-color: var(--tertiary-background-color);
+    /* background-color: green; */
+    min-height: 20rem;
+    max-height: 400px;
+    color: var(--text-color);
+    width: 100%;
+    padding: 0.5rem;
+    margin: 8px 0;
+}
+
+#name-area h3 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+#name-area p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#img-container {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-container img {
+    height: 100%;
+    flex-grow: 1;
+}
+
+#stats-area {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: right;
+    width: 80%;
+}
+
+#stats-area p {
+    width: 100%;
+}
+
+#stats-area span {
+    background-color: var(--highlight-color);
+    padding: 5px;
+    margin: 2px;
+}
+
+#types {
+    box-sizing: border-box;
+    display: flex;
+    gap: 2px;
+}
+
+.type {
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.normal {
+    background-color: #9fa19f;
+}
+
+.fighting {
+    background-color: #ff8000;
+}
+
+.flying {
+    background-color: #81b9ef;
+}
+
+.poison {
+    background-color: #9141cb;
+}
+.ground {
+    background-color: #915121;
+}
+
+.rock {
+    background-color: #afa981;
+}
+
+.bug {
+    background-color: #91a119;
+}
+
+.ghost {
+    background-color: #704170;
+}
+
+.steel {
+    background-color: #60a1b8;
+}
+
+.fire {
+    background-color: #e62829;
+}
+
+.water {
+    background-color: #2980ef;
+}
+
+.grass {
+    background-color: #3fa129;
+}
+
+.electric {
+    background-color: #fac000;
+}
+
+.psychic {
+    background-color: #ef4179;
+}
+
+.ice {
+    background-color: #3dcef3;
+}
+
+.dragon {
+    background-color: #5060e1;
+}
+
+.dark {
+    background-color: #624d4e;
+}
+
+.fairy {
+    background-color: #ef70ef;
+}
+
+.stellar {
+    background-color: #40b5a5;
+}
+
+.unknown {
+    background-color: #68a090;
+}
